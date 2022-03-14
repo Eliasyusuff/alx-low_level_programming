@@ -7,11 +7,11 @@
 
 int main(void)
 {
-char alphabet;
+char alpha;
 
-for (alphabet = 122; alphabet >= 97; alphabet++)
+for (alpha = 122; alpha >= 97; alpha--)
 {
-putchar(alphabet);
+putchar(alpha);
 }
 
 putchar('\n');
